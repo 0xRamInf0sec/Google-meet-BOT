@@ -38,10 +38,8 @@ def gmail():
     pg.press('enter')
     print("Entered Class")
     time.sleep(60*60)
-    for i in range(7):
-        pg.press('tab')
+    driver.quit()
     time.sleep(1)
-    pg.press('enter')
     print('Meeting ended')
 
 if __name__ == "__main__":
